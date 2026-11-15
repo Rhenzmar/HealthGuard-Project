@@ -50,4 +50,19 @@ This public reader repository intentionally excludes credentials, private develo
 
 The team's **original content actually included in this public repository** is provided under the [MIT License](LICENSE). This does **not** license any code, dataset, model checkpoint, research file or third-party artwork that is absent from this repository. Those materials retain their own applicable rights and terms.
 
-**Source availability limitation:** This is currently a public **documentation/reader** repository, not a complete release of the deployed app's source code. The deployed frontend, backend and model implementation remain in a separate private repository. Reviewers may access the [live demonstration](https://healthguard-dashboard.onrender.com/), but cannot independently rebuild the full implementation from this reader repository. This distinction is relevant to NASA Space Apps' open-source expectations and must not be represented as a complete open-source release.
+**Source availability limitation:** This repository includes a **selected original-source showcase** of simulator, input handling, contextual alerts and frontend utilities, but **not** the complete deployed application's source code. The remaining frontend, API integration, model checkpoints and full deployment implementation remain in a separate private repository. Reviewers may inspect the public source extracts and access the [live demonstration](https://healthguard-dashboard.onrender.com/), but cannot independently rebuild the complete deployed implementation from this repository. This distinction is relevant to NASA Space Apps' open-source expectations and must not be represented as a complete open-source release.
+
+## Selected source code
+
+The following **original code excerpts** are published for direct inspection under the repository's MIT License (subject to contributor rights). They are not a packaged, fully runnable release of the entire HealthGuard platform.
+
+- [Deterministic fictional engineering telemetry](source/physiograph/engineering_sim.py)
+- [Source-aware in-memory telemetry validation](source/physiograph/live_telemetry.py)
+- [PhysioAlert contextual attention logic](source/physiograph/physioalert_unified.py)
+- [Experimental simulated APDRA baseline checks](source/physiograph/live_apdra.py)
+- [Scripted frontend scenarios](source/frontend/scenarioSimulator.js)
+- [Health routine task logic](source/frontend/questLogic.js)
+- [Context and chart utility logic](source/frontend/crewContext.js)
+- [Non-overshooting chart path rendering](source/frontend/chartPaths.js)
+
+The Python files preserve original internal package imports. Some components require other files, trained model artifacts, or a running API omitted from this reader release. No implication of standalone full-system reproducibility is made. Published source was checked for obvious embedded credential patterns, but this limited check is not a substitute for a full security and third-party license audit.
