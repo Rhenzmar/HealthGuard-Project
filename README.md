@@ -44,4 +44,10 @@ The app is a research and education demonstration. No physical sensors, spacecra
 
 **NASA does not endorse, certify or medically validate HealthGuard.**
 
-This public reader repository is informational and intentionally excludes private source history, credentials, model checkpoints and data files. It does not grant rights to third-party content.
+This public reader repository intentionally excludes credentials, private development history, model checkpoints and dataset files. It does not grant rights to third-party content.
+
+## License and availability
+
+The team's **original content actually included in this public repository** is provided under the [MIT License](LICENSE). This does **not** license any code, dataset, model checkpoint, research file or third-party artwork that is absent from this repository. Those materials retain their own applicable rights and terms.
+
+**Source availability limitation:** This is currently a public **documentation/reader** repository, not a complete release of the deployed app's source code. The deployed frontend, backend and model implementation remain in a separate private repository. Reviewers may access the [live demonstration](https://healthguard-dashboard.onrender.com/), but cannot independently rebuild the full implementation from this reader repository. This distinction is relevant to NASA Space Apps' open-source expectations and must not be represented as a complete open-source release.
