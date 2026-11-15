@@ -3,7 +3,7 @@
 **AI-assisted astronaut health monitoring, physiological anomaly screening and mission-support research prototype**  
 NASA Space Apps Challenge 2026 · **CNHS-STE**
 
-[**Open the live demonstration**](https://physiograph-dashboard.onrender.com/) · [NASA Space Apps project page](https://www.spaceappschallenge.org/2026/find-a-team/cnhs-ste/?tab=project)
+[**Open the live demonstration**](https://healthguard-dashboard.onrender.com/) · [NASA Space Apps project page](https://www.spaceappschallenge.org/2026/find-a-team/cnhs-ste/?tab=project)
 
 > This is an interactive, **nonclinical research prototype**, not flight-ready or certified astronaut healthcare. All continuous crew and suit readings in the app are **simulated**, not measurements from real astronauts or connected wearable/suit sensors.
 
